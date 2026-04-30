@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Manjahi Dev's</title>
+  <meta name="description" content="Get in touch with Wilson Mburu Karanja — Manjahi Dev's. Reach out about web development, system development, data analysis, automation, or any digital project." />
+  <meta property="og:title" content="Contact — Manjahi Dev's" />
+  <meta property="og:description" content="Start a project, ask a question, or send a brief. Available for freelance work and contracts in Kenya and remotely." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="cursor" id="cursor"></div>
+
+<!-- ─── Nav ─── -->
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Manjahi Dev<span>'s</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav-mobile" id="mobileNav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Skills</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<!-- ─── Page Hero ─── -->
+<section class="page-hero">
+  <div class="section-inner">
+    <p class="section-label">Get in touch</p>
+    <h1 class="section-title">Contact Manjahi Dev's</h1>
+    <p class="section-sub">Have a website, system, data, or automation idea? Let's turn it into a practical digital solution. Fill in the form or reach out directly.</p>
+  </div>
+</section>
+
+<!-- ─── Contact Body ─── -->
+<section style="background:var(--bg);padding:6rem 0;">
+  <div class="section-inner">
+    <div class="contact-layout">
+
+      <!-- Info side -->
+      <div class="fade-up">
+        <p class="contact-info-title">Reach Out Directly</p>
+
+        <div class="contact-info-item">
+          <span class="cii-icon">✉️</span>
+          <div>
+            <p class="cii-label">Email</p>
+            <p class="cii-value"><a href="mailto:wmkaranja996@gmail.com">wmkaranja996@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <span class="cii-icon">📞</span>
+          <div>
+            <p class="cii-label">Phone</p>
+            <p class="cii-value"><a href="tel:+254711952022">+254 711 952 022</a></p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <span class="cii-icon">📍</span>
+          <div>
+            <p class="cii-label">Location</p>
+            <p class="cii-value">Nairobi, Kenya &mdash; Available Worldwide</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <span class="cii-icon">🕐</span>
+          <div>
+            <p class="cii-label">Response Time</p>
+            <p class="cii-value">Usually within 24 hours</p>
+          </div>
+        </div>
+
+        <div class="contact-action-btns">
+          <a href="https://wa.me/254711952022" class="btn btn-whatsapp" target="_blank" rel="noopener">
+            💬 &nbsp;Chat on WhatsApp
+          </a>
+          <a href="Wilson_Karanja_CV.pdf" class="btn btn-outline" download>
+            ↓ &nbsp;Download CV
+          </a>
+          <a href="mailto:wmkaranja996@gmail.com" class="btn btn-dark">
+            ✉️ &nbsp;Send Email Directly
+          </a>
+        </div>
+
+        <div style="margin-top:2.5rem;padding-top:2rem;border-top:1px solid var(--border);">
+          <p style="font-family:var(--mono);font-size:.62rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:.75rem;">Connect Online</p>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+            <!-- Replace # with actual LinkedIn/GitHub URLs when available -->
+            <a href="#" class="btn btn-outline" style="font-size:.68rem;padding:.55rem 1.1rem;">LinkedIn ↗</a>
+            <a href="#" class="btn btn-outline" style="font-size:.68rem;padding:.55rem 1.1rem;">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form side -->
+      <div class="fade-up">
+        <p style="font-family:var(--mono);font-size:.65rem;color:var(--teal);letter-spacing:.1em;text-transform:uppercase;margin-bottom:1.5rem;">Send a Project Brief</p>
+        <!--
+          SETUP: Replace YOUR_FORM_ID below with your Formspree form ID.
+          Sign up free at https://formspree.io — create a form and copy the ID.
+          The form will then send submissions to wmkaranja996@gmail.com.
+        -->
+        <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fullName">Full Name *</label>
+              <input type="text" id="fullName" name="fullName" placeholder="Jane Wanjiku" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+254 700 000 000" />
+            </div>
+            <div class="form-group">
+              <label for="company">Company / Organisation</label>
+              <input type="text" id="company" name="company" placeholder="Acme Ltd" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="service">Service Interested In *</label>
+            <select id="service" name="service" required>
+              <option value="" disabled selected>Select a service…</option>
+              <option>Web Design &amp; Development</option>
+              <option>Software &amp; System Development</option>
+              <option>Data Analysis &amp; Database Management</option>
+              <option>Task Automation</option>
+              <option>UI/UX Design</option>
+              <option>Content Creation &amp; Digital Marketing</option>
+              <option>Branding &amp; Creative Design</option>
+              <option>Multiple / Not Sure</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="description">Project Description *</label>
+            <textarea id="description" name="description" placeholder="Briefly describe what you need, the problem you're trying to solve, and any relevant details…" required></textarea>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="budget">Budget Range</label>
+              <select id="budget" name="budget">
+                <option value="" disabled selected>Select a range…</option>
+                <option>Under KES 20,000</option>
+                <option>KES 20,000 – 50,000</option>
+                <option>KES 50,000 – 100,000</option>
+                <option>KES 100,000 – 250,000</option>
+                <option>KES 250,000+</option>
+                <option>Let's discuss</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="contactMethod">Preferred Contact Method</label>
+              <select id="contactMethod" name="contactMethod">
+                <option value="" disabled selected>Select…</option>
+                <option>Email</option>
+                <option>WhatsApp</option>
+                <option>Phone Call</option>
+                <option>Any</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" style="margin-top:.5rem;">
+            Send Project Brief →
+          </button>
+          <p class="form-note" style="margin-top:.75rem;">
+            * Required fields. Your details are kept private — see <a href="privacy-policy.html" style="color:var(--teal);">Privacy Policy</a>.
+          </p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─── Footer ─── -->
+<footer>
+  <span class="footer-logo">Manjahi Dev<span>'s</span></span>
+  <span class="footer-copy">© 2026 Wilson Mburu Karanja · Nairobi, Kenya · Available Worldwide</span>
+  <div class="footer-links">
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Use</a>
+  </div>
+</footer>
+
+<a href="https://wa.me/254711952022" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp" title="Chat on WhatsApp">💬</a>
+
+<script src="script.js"></script>
+</body>
+</html>
