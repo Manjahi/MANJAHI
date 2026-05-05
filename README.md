@@ -1,9 +1,9 @@
 # Manjahi Dev's — Portfolio & Services Website
 
-**Owner:** Wilson Mburu Karanja  
+**Owner:**   
 **Brand:** Manjahi Dev's  
-**Contact:** wmkaranja996@gmail.com · +254 711 952 022  
-**Location:** Nairobi, Kenya · Available Worldwide
+**Contact:** available on request ·   
+**Location:** Kenya · Available Worldwide
 
 ---
 
