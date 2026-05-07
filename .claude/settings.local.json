@@ -3,7 +3,11 @@
     "allow": [
       "Bash(python3 -c ' *)",
       "Bash(python -c ' *)",
-      "Bash(python -c \"import sys; sys.stdout.buffer.write\\(sys.stdin.buffer.read\\(\\)\\)\")"
+      "Bash(python -c \"import sys; sys.stdout.buffer.write\\(sys.stdin.buffer.read\\(\\)\\)\")",
+      "Read(//c/Users/EARTH COUNT/Desktop/PERSONAL WORK/vb6 payroll management system/**)",
+      "Read(//c/Users/EARTH COUNT/Desktop/PERSONAL WORK/Notekeeper/**)",
+      "Read(//c/Users/EARTH COUNT/Desktop/PERSONAL WORK/Swim tracker/**)",
+      "Read(//c/Users/EARTH COUNT/Desktop/PERSONAL WORK/Note project/**)"
     ]
   }
 }
